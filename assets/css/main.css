@@ -3228,7 +3228,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg2 {
+		#wrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -3243,7 +3243,7 @@ input, select, textarea {
 			z-index: -1;
 		}
 
-			#wrapper > .bg2.fixed {
+			#wrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
 				height: 100vh;
@@ -3276,7 +3276,7 @@ input, select, textarea {
 
 		@media screen and (orientation: portrait) {
 
-			#wrapper > .bg2 {
+			#wrapper > .bg {
 				background-size: auto,								auto,														auto 175%;
 			}
 
@@ -4688,4 +4688,5 @@ input, select, textarea {
 		}
 
 	}
+
 
